@@ -8,6 +8,7 @@
     rgba(0, 105, 233, 0.829)),url(../images/image-background.jpg);
      background-position: center;   
      background-size: cover;
+     font-family: sans-serif;
 }
 
 .menu-bar { 
@@ -25,8 +26,36 @@
     background: white;
 }
 
+.menubar-right ul {
+    float: right;
+    padding: 10px 50px 0 50px;
+}
+
+.menubar-right li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.menubar-right img {
+    width: 24px;
+}
+
 .menubar-inner{
     display: flex;
     align-items: center;
     padding: 10px 50px 0 50px; 
+}
+
+.menubar-inner ul {
+    margin-left: 20px;
+    z-index: 2;
+}
+.menubar-inner li{
+    margin: 0 10px;
+    display: inline-block;
+}
+.menubar-inner a{
+    text-decoration: none;
+    color: whitesmoke;
 }
