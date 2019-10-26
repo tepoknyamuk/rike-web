@@ -59,3 +59,39 @@
     text-decoration: none;
     color: whitesmoke;
 }
+
+.content{
+    display: flex;
+    height: 88%;
+
+}
+.content-left{
+    flex-basis: 70%;
+    position: relative;
+}
+.content-right{
+    flex-basis: 30%;
+    position: relative;
+    background: white;
+}
+
+.uppertext{
+    left: 15%;
+    top: 20%;
+    position: absolute;
+    color: lightblue;
+    opacity: .5;
+}
+.uppertext h1{
+    font-size: 150px;
+    margin-left: 150px;
+    line-height: 90px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.uppertext h2{
+    font-size: 90px;
+
+}
+
