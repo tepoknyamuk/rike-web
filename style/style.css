@@ -87,11 +87,43 @@
     margin-left: 150px;
     line-height: 90px;
     font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-
+    
 }
 .uppertext h2{
-    font-size: 90px;
-
+    font-size: 80px;
 }
+
+h1, h2, h3{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.bottomtext{
+    left: 45%;
+    bottom: 10%;
+    position: absolute;
+    color: lightblue;
+    opacity: .5;
+}
+.bottomtext h1{
+    font-size: 100px;
+    margin-left: 100px;
+    line-height: 50px;
+}
+.bottomtext h2{
+    font-size: 60px;
+}
+.bottomtext h3{
+    font-size: 40px;
+    margin-left: 225px;
+    line-height: 10px;
+}
+
+.content-left img{
+    width: 650px;
+    top: -8%;
+    right: -30%;
+    position: absolute;
+    z-index: 1;
+}
+
+
 
