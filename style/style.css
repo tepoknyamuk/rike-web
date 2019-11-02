@@ -97,7 +97,7 @@ h1, h2, h3{
     font-family: Arial, Helvetica, sans-serif; 
 }
 .bottomtext{
-    left: 45%;
+    left: 30%;
     bottom: 10%;
     position: absolute;
     color: lightblue;
@@ -105,7 +105,7 @@ h1, h2, h3{
 }
 .bottomtext h1{
     font-size: 100px;
-    margin-left: 100px;
+    margin-left: 80px;
     line-height: 50px;
 }
 .bottomtext h2{
@@ -125,5 +125,42 @@ h1, h2, h3{
     z-index: 1;
 }
 
+.content-right img {
+width: 250px;
+top: 10%;
+left: 25%;
+position: absolute
+}
+
+.product-details{
+    bottom: 10%;
+    left: 10%;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.price-box{
+    display: flex;
+    width: 170px;
+    height: 150px;
+    align-items: center;
+    box-shadow: -40px 0 20px -40px rgba(189, 189, 189, 0.5), 40px 0 20px -40px
+    rgba(189, 189,189, 0.5);
+}
+.price{
+    flex-basis: 70%;
+}
+.price h2{
+    margin-left: 20px;
+    color: #999;
+}
+.price h1{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.price h3{
+    margin-left: 20px;
+    color: #ccc;
+}
 
 
