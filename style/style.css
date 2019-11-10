@@ -163,4 +163,49 @@ position: absolute
     color: #ccc;
 }
 
+.varient{
+    flex-basis: 30%;
+    text-align: center;
+}
+.varient  div{
+    width: 13px;
+    height: 13px;
+    margin: 5px auto;
+}
+.varient div:nth-child(1){
+    background-color: blue;
+    transform: scale(1.2);
+}
+.varient div:nth-child(2){
+    background-color: black;
+}
+.varient div:nth-child(3){
+    background-color: lime;
+}
+.varient div:nth-child(4){
+    background-color: red;
+}
+.varient div:nth-child(5){
+    background-color:orange;
+}
+.product-details p{
+    text-align: right;
+    color: #999;
+    font-size: 13p;
+}
+.social-links{
+    bottom: 120px;
+    right: -110px;
+    position: absolute;
+    transform: rotate(-90deg);
+}
 
+.social-links li{
+    list-style: none;
+    margin: 20px 15px;
+    display: inline-block;
+}
+.social-links a{
+    text-decoration: none;
+    color: #999;
+}
